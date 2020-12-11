@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link href="css/main2.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <div id="myDIV" class="header">
+        <nav class="blue">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">Task App</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row section">
+            <div class="container">
+                <div class="col s12 m8 offset-m2">
+                    <div class="card">
+                        <div class="card-content">
+                            <span>Add Task</span>
+                            <div class="input-field">
+                                <input type="text" id="myInput" placeholder="Title...">
+
+                                <label for="taskInput">Task</label>
+                            </div>
+                            <button id="addTask" class="btn blue"><span onclick="newElement()"
+                                    class="addBtn">Add</span></button>
+                            <button id="clearTask" class="btn red"><span onclick="newElement()" class="addBtn">Clear
+                                    Tasks</span></button>
+                            <a id="link" href="#">Text</a>
+                            <div id="section">
+                                <ul id="myUL">
+                                    <li>Hit the gym</li>
+                                    <li class="checked">Pay bills</li>
+                                    <li>Meet George</li>
+                                    <li>Buy eggs</li>
+                                    <li>Read a book</li>
+                                    <li>Organize office</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="js/materialize.min.js"></script>
+        <script src="js/java.js"></script>
+</body>
+
+</html>
